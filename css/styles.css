@@ -74,7 +74,14 @@ button {
 
 button:active,
 button:hover,
-button:focus {
+button:focus,
+button:link {
+  outline: none;
+  border: 1px solid rgb(135, 206, 250);
+  box-shadow: 0 0 2px 1px rgb(135, 206, 250);
+}
+
+.active {
   outline: none;
   border: 1px solid rgb(135, 206, 250);
   box-shadow: 0 0 2px 1px rgb(135, 206, 250);
