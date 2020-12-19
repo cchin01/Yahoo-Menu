@@ -36,10 +36,12 @@ header {
   width: 100vw;
   text-align: center;
   margin: 0 auto;
+  height: 80px;
+  margin: 4% 0 3% 0;
 }
 
 h1 {
-  margin: 4% 0 3% 0;
+  display: inline-block;
   font-size: 280%;
   font-weight: 500;
   letter-spacing: -1px;
